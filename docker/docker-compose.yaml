@@ -1,0 +1,53 @@
+services:
+  rag-api:
+    build: 
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - C:/Users/PC/Downloads/NLProject-main/NLProject-main/src/assets/documents/job_pdfs:/app/src/assets/documents/job_pdfs
+    depends_on:
+      - ollama
+      - mongodb
+      - qdrant
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      OPENAI_API_BASE: ${OPENAI_API_BASE:-http://ollama:11434/v1}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-ollama}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://ollama:11434}
+      DOCUMENTS_DIR: /app/src/assets/documents/job_pdfs
+      QDRANT_URL: ${QDRANT_URL:-http://qdrant:6333}
+      GENERATE_RESPONSE_MODEL: ${GENERATE_RESPONSE_MODEL:-qwen2.5:1.5b}
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+  mongodb:
+    image: mongo:7
+    env_file:
+      - .env
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb:/data/db
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+volumes:
+  ollama:
+  qdrant_storage:

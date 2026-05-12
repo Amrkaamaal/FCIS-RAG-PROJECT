@@ -1,0 +1,218 @@
+{
+    "summary": {
+        "evaluation_time": "2026-05-12 06:07:58.540439",
+        "total_queries": 26,
+        "avg_semantic_similarity": 0.5599,
+        "avg_faithfulness": 0.0
+    },
+    "results": [
+        {
+            "query": "What does a Senior Python Developer do?",
+            "ground_truth": "Responsible for backend development, APIs, and system design using Python.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5822,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain the role of a Backend Engineer",
+            "ground_truth": "Designs and maintains server-side logic and APIs.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5957,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What skills are required for a React Frontend Developer?",
+            "ground_truth": "React, JavaScript, HTML, CSS, state management.",
+            "generated_answer": "",
+            "semantic_similarity": 0.6019,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Full Stack Developer handle?",
+            "ground_truth": "Works on both frontend and backend systems.",
+            "generated_answer": "",
+            "semantic_similarity": 0.6058,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Tell me about Flutter Mobile Developer responsibilities",
+            "ground_truth": "Builds cross-platform mobile apps using Flutter.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5677,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does an AWS Cloud Engineer do?",
+            "ground_truth": "Manages cloud infrastructure on AWS.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5427,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain Data Scientist job role",
+            "ground_truth": "Analyzes data and builds predictive models.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5446,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What is the role of a Machine Learning Engineer?",
+            "ground_truth": "Builds and deploys ML models.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5722,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Data Engineer do?",
+            "ground_truth": "Builds data pipelines and manages data infrastructure.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5121,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain NLP Engineer responsibilities",
+            "ground_truth": "Works on natural language processing models.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5814,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Civil Engineer do in construction?",
+            "ground_truth": "Designs and supervises construction projects.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5813,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Role of Structural Engineer",
+            "ground_truth": "Ensures buildings are structurally safe.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5575,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What is SEO Specialist job description?",
+            "ground_truth": "Optimizes websites for search engines.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5593,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Digital Marketing Specialist do?",
+            "ground_truth": "Runs online marketing campaigns.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5318,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What is the role of a Financial Analyst?",
+            "ground_truth": "Analyzes financial data for decision making.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5401,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain Senior Accountant responsibilities",
+            "ground_truth": "Handles accounting records and reports.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5221,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Customer Success Manager do?",
+            "ground_truth": "Ensures customer satisfaction and retention.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5226,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Role of HR Manager in a company",
+            "ground_truth": "Manages recruitment and HR operations.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5522,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Sales Executive do?",
+            "ground_truth": "Sells products and manages client relationships.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5557,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain English Teacher job role",
+            "ground_truth": "Teaches English language skills to students.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5957,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What is Mechanical Engineer responsible for?",
+            "ground_truth": "Designs mechanical systems and machines.",
+            "generated_answer": "",
+            "semantic_similarity": 0.6064,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Production Engineer do?",
+            "ground_truth": "Manages manufacturing production processes.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5537,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Explain role of DevOps Engineer",
+            "ground_truth": "Automates deployment and manages CI/CD pipelines.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5332,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Node.js Backend Developer do?",
+            "ground_truth": "Builds backend services using Node.js.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5463,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "What does a Cloud Engineer do in AWS systems?",
+            "ground_truth": "Manages cloud infrastructure and AWS services.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5285,
+            "faithfulness": 0.0,
+            "non_english": false
+        },
+        {
+            "query": "Tell me about engineer jobs",
+            "ground_truth": "Generic engineering roles vary by field.",
+            "generated_answer": "",
+            "semantic_similarity": 0.5634,
+            "faithfulness": 0.0,
+            "non_english": false
+        }
+    ]
+}
